@@ -1,0 +1,28 @@
+#include<iostream>
+using namespace std;
+class student
+{
+private:
+    string name;
+    string collage="city engineering collage";
+public:
+    student(string n)
+    {
+        name=n;
+    }
+    sting getcollage()
+    {
+        return collage;
+    }
+    void getdetails()
+    {
+        cout<<"name:"<<name<<endl;
+        cout<<"collage:"<<getcollage()<<endl;
+    }
+};
+int main()
+{
+    student s1("raj");
+    cout<<s1.getcollage()<<endl;
+    s1.getdetails();
+}
