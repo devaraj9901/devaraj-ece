@@ -26,8 +26,5 @@ int main()
 {
     student s1;
     teacher t1;
-    s1 : raj;
-    t1: dharni;
-    cout<< s1 <<endl;
-    cout <<t1<< endl;
+    
 }
